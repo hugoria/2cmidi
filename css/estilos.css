@@ -23,8 +23,8 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,rgb(36, 94, 121) 100%);
-  box-shadow: 6px 8px 0 6px #ec0d0d, 10px 10px 10px #700000;
+  background: linear-gradient(to bottom, #eeeeee 0%,rgb(171, 236, 209) 100%);
+  box-shadow: 6px 8px 0 6px #942b2b, 10px 10px 10px #700000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
@@ -48,7 +48,7 @@ h1 {
 
 .tecla.ativa,
 .tecla:active {
-  background-color: #000000;
+  background-color: #faf5f5;
   border: 4px solid  var(--vermelha);
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
   color: var(--branca);
